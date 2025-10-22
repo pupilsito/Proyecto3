@@ -6,4 +6,6 @@
 
 ##ADAPTADOR RED
 
-1. Pondremos el adaptador red a NAT
+1. Pondremos una interfíci pública de adaptador NAT
+
+2. Seguidamente una interfíci privada de Host-Only
