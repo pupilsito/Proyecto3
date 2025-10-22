@@ -4,3 +4,6 @@
 
 2. Seguidamente cambiaremos el hostname a server.innovatechXX.test
 
+##ADAPTADOR RED
+
+1. Pondremos el adaptador red a NAT
