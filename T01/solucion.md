@@ -65,30 +65,27 @@ Después de evaluar las diferentes opciones, sugerimos implementar Bitwarden par
 # **Instalación de Bitwarden**
 
 ## **Microsoft store**
+![Download](img/1foto.png)
 
 Como se ve en la imagen iremos a la aplicación de Microsoft Store donde instalaremos el BitWarden
 
 ## **Cuenta**
+![Cuenta](img/2foto.png)
 
-Seguidamente como  
-se observa en la   
-imagen crearemos  
-una cuenta con  
-nuestros datos
+Seguidamente como  se observa en la   imagen crearemos  una cuenta con  nuestros datos
 
 ## **Contraseña**
+![Contraseña](img/3foto.png)
 
-Seguidamente asignaremos   
-dos contraseñas:
+Seguidamente asignaremos dos contraseñas:
 
 1. Contraseña  
 2. Contraseña maestra
 
 ## **Generador**
+![Generador](img/4foto.png)
 
- Seguidamente en el apartado  
- de generador veremos que   
- nos aparece:
+Seguidamente en el apartado  de generador veremos que  nos aparece:
 
 1. Longitud  
 2. Parámetros  
@@ -97,6 +94,7 @@ dos contraseñas:
 ## 
 
 ## **Como guardar credenciales**
+![Credenciales](img/5foto.png)
 
 En el apartado superior derecho de   
 la web en la opción de nuevo   
@@ -105,6 +103,7 @@ elegimos “Inicio de sesión”
 ## 
 
 ### Correo electrónico
+![Correo electrónico](img/6foot.png)
 
 Seguidamente rellenaremos  
 las casillas con nuestros  
@@ -115,6 +114,7 @@ electrónico
 ## 
 
 ### Sitio web
+![Credenciales](img/7foot.png)
 
 Seguidamente rellenaremos  
 las casillas con nuestros  
@@ -126,8 +126,14 @@ caso de “[spotify.com](http://spotify.com)”
 
 1. Ves a **Configuración** → **Herramientas**  → **Exportar datos de la caja fuerte**
 
-2. Introduce la contraseña **maestra** para confirmar
+![Copia de seguridad](img/8foto.png)
 
-3. Guarda el fichero (`bitwarden_export_2025-10-23.json`) en una ubicación segura:  
+3. Introduce la contraseña **maestra** para confirmar
+
+![Copia de seguridad](img/9foto.png)
+
+3. Guarda el fichero (`bitwarden_export_2025-10-23.json`) en una ubicación segura:
    
+![Copia de seguridad](img/10foto.png)
+ 
 
