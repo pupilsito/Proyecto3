@@ -61,8 +61,15 @@
 
 # **Comrpobación de resolución con nslookup (Multiplataforma)**
 
-##
+### Seleccionar type=A y como a dominio de consulta tecnocampus.cat
+
 ![img](img/7.png)
+
+### Anàlisi: Per què indica que la resposta és no autoritativa?
+
+- Ya que cuando haces una consulta sin indicar un DNS, en vez de responderte el servidor autoritativo, te responde normalmente tu proveedor de internter por ejemplo:
+  - Google(8.8.8.8)
+
 ![img](img/8.png)
 
 
