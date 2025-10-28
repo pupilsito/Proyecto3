@@ -61,6 +61,8 @@
 
 # **Comrpobación de resolución con nslookup (Multiplataforma)**
 
+## Comanda 1: Consulta Básica no Autoritativa
+
 ### Seleccionar type=A y como a dominio de consulta tecnocampus.cat
 
 ![img](img/7.png)
@@ -70,8 +72,13 @@
 - Ya que cuando haces una consulta sin indicar un DNS, en vez de responderte el servidor autoritativo, te responde normalmente tu proveedor de internter por ejemplo:
   - Google(8.8.8.8)
 
+## Comanda 2: Consultas autoritativas
+
+### Escribir server IP y escribir la IP del primer servidor de nombres del dominio tecnocampus.cat que se ha obtenido de una consulta anterior. A continuación, indicar que quereis consultar registros de tipo A y del dominio tecnocampus.cat
+
 ![img](img/8.png)
 
+### Anàlisi: Quines diferències s’observen a la resposta obtinguda amb la comanda 1?
 
 
 
