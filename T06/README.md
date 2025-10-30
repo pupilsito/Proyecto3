@@ -32,6 +32,9 @@ Se emplearán comandos como `dig` y `nslookup` para:
 
 El resultado final de esta fase será la elaboración de un documento llamado **guía.md**, que incluirá las **capturas de pantalla** y el **análisis detallado** de las consultas realizadas, así como las **pruebas de resolución local**.
 
----
+## Fichero de solución y menu principal
+- Aqui se adjunta el fichero con la [solucion](solucion.md)
+- [Volver al menu principal](/README.md)
+
 
 
