@@ -76,9 +76,26 @@
 
 ### Escribir server IP y escribir la IP del primer servidor de nombres del dominio tecnocampus.cat que se ha obtenido de una consulta anterior. A continuación, indicar que quereis consultar registros de tipo A y del dominio tecnocampus.cat
 
-![img](img/8.png)
+![img](img/9.png)
+
+- Haremos el siguiente **dig tecnocampus.cat NS** para obtener el **NS** y asi poder hacer un nslookup autoritativo con la información que nos de
 
 ### Anàlisi: Quines diferències s’observen a la resposta obtinguda amb la comanda 1?
+
+![img](img/10.png)
+
+- Seguidamente en el nslookup pondremos **server ns-535.awsdns-82.net**, recorar que esta información la hemos sacado del nslookup anterior. Y finalmente haremos lo hecho anterior, **set type=A* y **tecnocampus.cat**.
+
+# RESOLUCIONES LOCALES
+
+## Comanda 1: Ping local
+
+### Finalment es vol comprovar el funcionament de la resolució local, útil per entorns de xarxa local on no es disposa de servidor de noms propi i que evita haver d’accedir a equips o recursos per la seva IP.
+
+![img](img/11.png)
+
+- Aqui se observa que el ping se ha realizado correctamente
+
 
 
 
