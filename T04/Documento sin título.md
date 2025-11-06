@@ -8,8 +8,8 @@ El consultor ha de verificar la correcta configuració de la infraestructura vir
 
 | ID | Descripció del Requeriment | Configuració Requerida |
 | :---- | :---- | :---- |
-| **R.INF.01** | Configuració de la màquina Server (Server Hostname). | **server.innovatechXX.test**  <img src=img/4.png alt="hostname" width=40%|
-| **R.INF.02** | Interfície de Xarxa Pública. | **NAT** (Per accés a Internet i descàrrega de paquets). |
+| **R.INF.01** | Configuració de la màquina Server (Server Hostname). | **server.innovatechXX.test**  <img src="img/4.png" alt="Hostname">|
+| **R.INF.02** | Interfície de Xarxa Pública. | **NAT** (Per accés a Internet i descàrrega de paquets). <img src="img/4.png" alt="Hostname">|
 | **R.INF.03** | Interfície de Xarxa Privada. | **Host-Only** (Per a comunicació privada amb el Client virtual  i la màquina física). |
 
 ### 
