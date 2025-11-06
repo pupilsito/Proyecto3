@@ -9,8 +9,8 @@ El consultor ha de verificar la correcta configuració de la infraestructura vir
 | ID | Descripció del Requeriment | Configuració Requerida |
 | :---- | :---- | :---- |
 | **R.INF.01** | Configuració de la màquina Server (Server Hostname). | **server.innovatechXX.test**  <img src="img/4.png" alt="Hostname">|
-| **R.INF.02** | Interfície de Xarxa Pública. | **NAT** (Per accés a Internet i descàrrega de paquets). <img src="img/4.png" alt="Hostname">|
-| **R.INF.03** | Interfície de Xarxa Privada. | **Host-Only** (Per a comunicació privada amb el Client virtual  i la màquina física). |
+| **R.INF.02** | Interfície de Xarxa Pública. | **NAT** (Per accés a Internet i descàrrega de paquets). <img src="img/27.png" alt="Hostname">|
+| **R.INF.03** | Interfície de Xarxa Privada. | **Host-Only** (Per a comunicació privada amb el Client virtual  i la màquina física). <img src="img/28.png" alt="Hostname">|
 
 ### 
 
@@ -22,10 +22,10 @@ La Consultora EverPia ha de complir estrictament amb les següents tasques d'ins
 
 | ID | Descripció de la Tasca | Detalls de la Configuració |
 | :---- | :---- | :---- |
-| **T.LDAP.01** | Instal·lació del servei OpenLDAP. | S'ha de mostrar el resultat de la comanda slapcat per validar la instal·lació base. |
-| **T.LDAP.02** | Configuració de la base de dades. | **Nom del Domini:** innovatechXX.test |
-| **T.LDAP.03** | Configuració de la contrasenya d'administrador. | **Contrasenya:** p@ssw0rd |
-| **T.LDAP.04** | Creació d'Unitats Organitzatives (OU) inicials. | S'han de crear dues OUs: **users** i **groups** mitjançant un fitxer **.ldif**. |
+| **T.LDAP.01** | Instal·lació del servei OpenLDAP. | S'ha de mostrar el resultat de la comanda slapcat per validar la instal·lació base. <img src="img/5.png" alt="Hostname">|
+| **T.LDAP.02** | Configuració de la base de dades. | **Nom del Domini:** innovatechXX.test <img src="img/10.png" alt="Hostname">|
+| **T.LDAP.03** | Configuració de la contrasenya d'administrador. | **Contrasenya:** p@ssw0rd <img src="img/6.png" alt="Hostname">|
+| **T.LDAP.04** | Creació d'Unitats Organitzatives (OU) inicials. | S'han de crear dues OUs: **users** i **groups** mitjançant un fitxer **.ldif**. <img src="img/16.png" alt="Hostname">|
 | **T.LDAP.05** | Validació de les Unitats Organitzatives. | Realitzar una consulta amb **ldapsearch** que mostri totes les OUs creades al directori. |
 
 #### **3.2. Gestió i Administració (LAM)**
