@@ -34,9 +34,9 @@ La Consultora EverPia ha de complir estrictament amb les següents tasques d'ins
 | :---- | :---- | :---- |
 | **T.LAM.01** | Instal·lació del Gestor d'Usuaris LDAP (LAM). | S'ha de documentar la comanda d'instal·lació. <img src="img/18.png" alt="ldapsearch">|
 | **T.LAM.02** | Accés Remot i Configuració. | Connectar a LAM des de la màquina física utilitzant l'adreça IP de la interfície **Host-Only**. <img src="img/19.png" alt="ldapsearch">|
-| **T.LAM.03** | Configuració per defecte. | Establir la configuració predeterminada perquè els nous usuaris s'ubiquin a l'OU **users** i els nous grups a l'OU **groups**. |
-| **T.LAM.04** | Creació de Grups. | Crear dos grups de seguretat al directori: **tech** i **manager**. |
-| **T.LAM.05** | Creació d'Usuaris de Prova. | Crear un usuari per a cada grup: **tech01** (membre de tech) i **manager01** (membre de manager). |
+| **T.LAM.03** | Configuració per defecte. | Establir la configuració predeterminada perquè els nous usuaris s'ubiquin a l'OU **users** i els nous grups a l'OU **groups**. <img src="img/53.png" alt="ldapsearch"><img src="img/54.png" alt="ldapsearch">|
+| **T.LAM.04** | Creació de Grups. | Crear dos grups de seguretat al directori: **tech** i **manager**. <img src="img/24.png" alt="ldapsearch"><img src="img/25.png" alt="ldapsearch">|
+| **T.LAM.05** | Creació d'Usuaris de Prova. | Crear un usuari per a cada grup: **tech01** (membre de tech) i **manager01** (membre de manager). <img src="img/55.png" alt="ldapsearch">|
 
 ### 
 
@@ -52,9 +52,9 @@ La Consultora EverPia ha de complir estrictament amb les següents tasques d'ins
 
 | ID | Descripció de la Tasca | Detalls de la Configuració |
 | :---- | :---- | :---- |
-| **T.CLI.01** | Instal·lació del Client. | Instal·lar un client Ubuntu Desktop i configurar la interfície de xarxa per comunicar-se amb el servidor (Host-Only). |
-| **T.CLI.02** | Resolució de Noms. | Configurar l'arxiu d'**hosts** del client per resoldre l'adreça IP del servidor a **server.innovatechXX.test**. S'ha de proporcionar una instantània (snapshot) de la màquina client un cop fet el canvi. |
-| **T.CLI.03** | Validació de la Connectivitat LDAP. | Comprovar la connectivitat amb el servidor fent una consulta **ldapsearch** des del client. |
+| **T.CLI.01** | Instal·lació del Client. | Instal·lar un client Ubuntu Desktop i configurar la interfície de xarxa per comunicar-se amb el servidor (Host-Only). <img src="img/28.png" alt="ldapsearch">|
+| **T.CLI.02** | Resolució de Noms. | Configurar l'arxiu d'**hosts** del client per resoldre l'adreça IP del servidor a **server.innovatechXX.test**. S'ha de proporcionar una instantània (snapshot) de la màquina client un cop fet el canvi. <img src="img/56.png" alt="ldapsearch"><img src="img/57.png" alt="ldapsearch">|
+| **T.CLI.03** | Validació de la Connectivitat LDAP. | Comprovar la connectivitat amb el servidor fent una consulta **ldapsearch** des del client. <img src="img/58.png" alt="ldapsearch">|
 | **T.CLI.04** | Mòduls d'Autenticació. | Instal·lar els mòduls necessaris per permetre l'autenticació amb LDAP. |
 | **T.CLI.05** | Configuració del Client. | Modificar els arxius de configuració del client necessaris. S'han de mostrar **clarament els canvis realitzats** en el codi dels arxius. |
 | **T.CLI.06** | Comprovació del Sistema. | Reiniciar els serveis i verificar amb la comanda **getent passwd** que els usuaris del directori són visibles localment. |
