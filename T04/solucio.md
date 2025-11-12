@@ -2,10 +2,6 @@
 
 ## 1️⃣ Creació de la màquina virtual
 
-Creem una màquina virtual on instal·larem **Ubuntu Server**.
-
-<img src="img/1.png" alt="Creació d'una màquina virtual amb Ubuntu Server per instal·lar el servei LDAP.">
-
 Un cop dins, actualitzem els paquets:
 
 ```bash
@@ -18,11 +14,11 @@ Editem el fitxer `/etc/hosts` per definir el domini:
 sudo nano /etc/hosts
 ```
 
-<img src="img/2.png" alt="Edició de l'arxiu /etc/hosts per definir el domini del servidor.">
+<img src="img/59.png" alt="Edició de l'arxiu /etc/hosts per definir el domini del servidor.">
 
 Verifiquem que els canvis s’han aplicat correctament al domini.
 
-<img src="img/3.png" alt="Visualització dels canvis aplicats al domini després d'editar l'arxiu hosts.">
+<img src="img/60.png" alt="Visualització dels canvis aplicats al domini després d'editar l'arxiu hosts.">
 
 ---
 
@@ -30,7 +26,7 @@ Verifiquem que els canvis s’han aplicat correctament al domini.
 
 Per permetre la comunicació amb l’amfitrió, configurem una interfície **Host-Only**:
 
-<img src="img/4.png" alt="Configuració d'una interfície de xarxa host-only per comunicar-se amb l'amfitrió." width="750">
+<img src="img/61.png" alt="Configuració d'una interfície de xarxa host-only per comunicar-se amb l'amfitrió." width="750">
 
 Editarem l’arxiu `/etc/netplan/50-cloud-init.yaml` amb la comanda següent per habilitar la interfície:
 
