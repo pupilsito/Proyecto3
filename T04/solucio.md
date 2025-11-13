@@ -147,15 +147,11 @@ Un cop dins, accedirem a **Edit server profiles** per començar la configuració
 
 <img src="img/20.png" alt="Pantalla inicial de configuració del LAM, accedint a Edit server profiles." width="750">
 
-A continuació, apareixerà el panell d’inici de sessió, on la contrasenya per defecte és `lam`.
-
-<img src="img/15.png" alt="Panell de login del LAM amb contrasenya per defecte lam." width="650">
-
 En aquest apartat configurarem les opcions generals del gestor, com ara l’idioma, el compte d’administrador i altres paràmetres bàsics.
 
-<img src="img/16.png" alt="Configuració general del servidor LDAP al LAM, idioma i compte d'administrador." width="750">
+<img src="img/67.png" alt="Configuració general del servidor LDAP al LAM, idioma i compte d'administrador." width="750">
 
-<img src="img/17.png" alt="Configuració general del servidor LDAP al LAM, idioma i compte d'administrador." width="750">
+<img src="img/68.png" alt="Configuració general del servidor LDAP al LAM, idioma i compte d'administrador." width="750">
 
 A la segona pestanya **Account Types**, definirem els **DN** dels usuaris i dels grups, incloent-hi una **OU** per als usuaris i una altra per als grups.
 
