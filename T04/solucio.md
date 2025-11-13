@@ -34,11 +34,11 @@ Editarem l’arxiu `/etc/netplan/50-cloud-init.yaml` amb la comanda següent per
 sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 
-<img src="img/5.png" alt="Edició de l'arxiu /etc/netplan/50-cloud-init.yaml per habilitar la interfície host-only.">
+<img src="img/63.png" alt="Edició de l'arxiu /etc/netplan/50-cloud-init.yaml per habilitar la interfície host-only.">
 
 Apliquem els canvis i comprovem la interfície amb `ip a`:
 
-<img src="img/6.png" alt="Comprovació de la nova interfície de xarxa amb la comanda ip a." width="750">
+<img src="img/62.png" alt="Comprovació de la nova interfície de xarxa amb la comanda ip a." width="750">
 
 ---
 
