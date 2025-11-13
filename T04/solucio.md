@@ -1,14 +1,14 @@
-# T04: You serve as director. LDAP  
+# T04: LDAP  
 
-## 1️⃣ Creación of the virtual machine
+## 1️⃣ Creación de la máquina virtual
 
-De repente, update the packages:
+update the packages:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-Edit the archivo `/etc/hosts` to define the domain:
+Edita el archivo `/etc/hosts` to para definir el dominio:
 
 ```bash
 sudo nano /etc/hosts
