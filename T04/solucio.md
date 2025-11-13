@@ -52,7 +52,10 @@ sudo apt install slapd ldap-utils -y
 
 Durant la instal·lació, el sistema ens demanarà la contrasenya de l’administrador. Introduirem `p@ssw0rd`, tal com s’indica al Plec de Condicions Tècniques.
 
-<img src="img/7.png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/.9png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/.10png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/.11png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/.12png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
 
 Un cop executada la comanda anterior, comprovarem que el servei s’està executant correctament amb la següent comanda:
 
