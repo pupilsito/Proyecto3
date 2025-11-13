@@ -155,12 +155,7 @@ En aquest apartat configurarem les opcions generals del gestor, com ara l’idio
 
 A la segona pestanya **Account Types**, definirem els **DN** dels usuaris i dels grups, incloent-hi una **OU** per als usuaris i una altra per als grups.
 
-<img src="img/18.png" alt="Definició dels DN per a usuaris i grups a la pestanya Account Types del LAM." width="750">
-<img src="img/19.png" alt="Definició dels DN per a usuaris i grups a la pestanya Account Types del LAM." width="750">
-
-Un cop completada la configuració, guardarem els canvis fent clic al botó **Save**, situat a la part inferior esquerra (de color blau).
-
-<img src="img/20.png" alt="Desament de la configuració del LAM fent clic a Save.">
+<img src="img/70.png" alt="Definició dels DN per a usuaris i grups a la pestanya Account Types del LAM." width="750">
 
 Tot seguit, apareixerà el panell d’inici de sessió, on accedirem amb l’usuari administrador del domini:
 
@@ -168,7 +163,7 @@ Tot seguit, apareixerà el panell d’inici de sessió, on accedirem amb l’usu
 Usuari: admin  
 Contrasenya: p@ssw0rd
 ```
-<img src="img/21.png" alt="Pantalla d'inici de sessió al panell d'administració amb admin/p@ssw0rd." width="750">
+<img src="img/71.png" alt="Pantalla d'inici de sessió al panell d'administració amb admin/p@ssw0rd." width="750">
 
 ---
 
@@ -180,17 +175,15 @@ Un cop dins del panell d’administració, hem de crear dos **grups de seguretat
 
 Per fer-ho, anirem a **Accounts → Groups**.
 
-<img src="img/22.png" alt="Creació dels grups de seguretat tech i manager dins del LAM." width="750">
-
 Un cop dins d’aquest apartat, farem clic a **New group** per crear els dos grups. 
 
-<img src="img/23.png" alt="Creació dels grups de seguretat tech i manager dins del LAM." width="750">
+<img src="img/72.png" alt="Creació dels grups de seguretat tech i manager dins del LAM." width="750">
 
 Després de configurar-los, premem **Save** per desar els canvis.
 
 Finalment, ja tenim creats els dos grups al directori.
 
-<img src="img/24.png" alt="Confirmació de la creació correcta dels grups tech i manager." width="750">
+<img src="img/73.png" alt="Confirmació de la creació correcta dels grups tech i manager." width="750">
 
 ### Usuaris
 
@@ -198,35 +191,33 @@ Repetirem el mateix procés per crear un usuari per a cada grup, anomenats `tech
 
 Per fer-ho, ens dirigirem a **Accounts → Users** i farem clic a **New user**.
 
-<img src="img/25.png" alt="Creació d'un nou usuari tech01 al panell d'usuaris del LAM." width="750">
-
 A l’interior del formulari haurem d’introduir la informació personal de l’usuari, com ara l’adreça, el telèfon, la fotografia i altres dades bàsiques.
 
-<img src="img/26.png" alt="Formulari d'usuari amb informació personal i Unix per tech01." width="750">
+<img src="img/74.png" alt="Formulari d'usuari amb informació personal i Unix per tech01." width="750">
 
 També configurarem la informació **Unix**, necessària perquè l’usuari pugui iniciar sessió al client.  
 
+<img src="img/75.png" alt="Formulari d'usuari amb informació personal i Unix per tech01." width="750">
+
 En aquest pas, haurem de crear el **grup primari** amb el mateix nom que l’usuari.
 
-<img src="img/27.png" alt="Formulari d'usuari amb informació personal i Unix per tech01." width="750">
+<img src="img/77.png" alt="Formulari d'usuari amb informació personal i Unix per tech01." width="750">
 
 Haurem d’afegir l’usuari al **grup corresponent**.  
 
 Per fer-ho, farem clic al botó **Edit groups** i, un cop dins, mourem el grup `tech` (en aquest cas) a la secció **Selected groups** per assignar-lo correctament a l’usuari.
 
-<img src="img/28.png" alt="Assignació de l'usuari tech01 al grup tech mitjançant Edit groups." width="750">
-
 Finalment, haurem de crear una **contrasenya** perquè l’usuari de domini pugui iniciar sessió.  
 
 Per fer-ho, farem clic al botó **Set password**, introduirem la contrasenya `1234` i marcarem la casella que obliga l’usuari a canviar-la en el **primer inici de sessió**.
 
-<img src="img/29.png" alt="Configuració de la contrasenya de l'usuari tech01 amb l'opció de canvi obligatori.">
+<img src="img/78.png" alt="Assignació de l'usuari tech01 al grup tech mitjançant Edit groups." width="750">
 
 Un cop completats aquests passos, guardarem el nou usuari fent clic al botó **Save**.  
 
 A continuació, repetirem el mateix procés amb l’usuari i el grup `manager01`, obtenint el resultat següent:
 
-<img src="img/30.png" alt="Visualització dels dos usuaris tech01 i manager01 creats correctament." width="750">
+<img src="img/76.png" alt="Configuració de la contrasenya de l'usuari tech01 amb l'opció de canvi obligatori.">
 
 ---
 
@@ -236,13 +227,11 @@ Per comprovar que el servidor **LDAP** funciona correctament, configurarem un **
 
 A aquest client li crearem una **segona interfície de xarxa** en mode **host-only**, per tal que pugui comunicar-se amb el servidor.
 
-<img src="img/31.png" alt="Configuració d'un client ZorinOS amb interfície host-only per connectar-se al servidor LDAP." width="750">
-
 Un cop dins del client, haurem de **configurar el nom de l’equip** perquè formi part del mateix domini que el servidor.
 
 Com que no disposem d’un servei **DNS**, editarem el fitxer `/etc/hosts` del client per tal que pugui resoldre el nom del servidor correctament.
 
-<img src="img/32.png" alt="Edició de l'arxiu /etc/hosts del client per afegir el servidor de domini.">
+<img src="img/79.png" alt="Edició de l'arxiu /etc/hosts del client per afegir el servidor de domini.">
 
 Ara comprovarem que els noms es resolen correctament executant les comandes següents:
 
