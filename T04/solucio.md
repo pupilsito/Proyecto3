@@ -320,25 +320,20 @@ Para finalizar, editaremos el archivo `/etc/pam.d/gdm-launch-environment` para p
 
 Reiniciaremos el cliente y, en la pantalla de inicio de sesión, haremos clic en **Not listed** para introducir manualmente otro usuario.
 
-<img src="img/47.png" alt="Pantalla d'inici de sessió del client amb l'opció Not listed per introduir tech01.">
+<img src="img/93.png" alt="Pantalla d'inici de sessió del client amb l'opció Not listed per introduir tech01.">
 
 A continuación, introduciremos el usuario `tech01` para iniciar sesión con las siguientes credenciales:
 
 - **Usuario:** `tech01`
 - **Contraseña:** `1234`
 
-<img src="img/48.png" alt="Primera connexió de l'usuari tech01 i creació automàtica del directori personal.">
+<img src="img/94.png" alt="Primera connexió de l'usuari tech01 i creació automàtica del directori personal.">
 
 Después de introducir la contraseña, aparecerá un mensaje indicando que se está creando el **directorio personal** del usuario, en este caso `/home/tech01`.
 
-<img src="img/49.png" alt="Primera connexió de l'usuari tech01 i creació automàtica del directori personal.">
-
 Una vez iniciada la sesión, se puede comprobar que todo se ha creado correctamente.
 
-<img src="img/50.png" alt="Sessió iniciada correctament amb l'usuari tech01 verificant el bon funcionament del domini.">
+<img src="img/95.png" alt="Sessió iniciada correctament amb l'usuari tech01 verificant el bon funcionament del domini.">
 
-Si repetimos el mismo proceso con el usuario `manager01`, obtendremos el mismo resultado.
-
-<img src="img/51.png" alt="Sessió iniciada correctament amb l'usuari manager01 verificant el bon funcionament del domini.">
 
 [Tornar a enunciat](README.MD)
