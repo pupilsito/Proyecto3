@@ -52,10 +52,10 @@ sudo apt install slapd ldap-utils -y
 
 Durant la instal·lació, el sistema ens demanarà la contrasenya de l’administrador. Introduirem `p@ssw0rd`, tal com s’indica al Plec de Condicions Tècniques.
 
-<img src="img/.9png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
-<img src="img/.10png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
-<img src="img/.11png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
-<img src="img/.12png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/9.png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/10.png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/11.png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
+<img src="img/12.png" alt="Instal·lació del servei OpenLDAP mitjançant la comanda apt install slapd ldap-utils.">
 
 Un cop executada la comanda anterior, comprovarem que el servei s’està executant correctament amb la següent comanda:
 
@@ -63,7 +63,7 @@ Un cop executada la comanda anterior, comprovarem que el servei s’està execut
 sudo systemctl status slapd
 ```
 
-<img src="img/8.png" alt="Verificació de l'estat del servei slapd amb systemctl status.">
+<img src="img/64.png" alt="Verificació de l'estat del servei slapd amb systemctl status.">
 
 Ara comprovarem que el directori s’ha creat amb el nom desitjat:
 
@@ -71,7 +71,7 @@ Ara comprovarem que el directori s’ha creat amb el nom desitjat:
 sudo slapcat
 ```
 
-<img src="img/9.png" alt="Consulta del contingut del directori LDAP amb la comanda slapcat.">
+<img src="img/65.png" alt="Consulta del contingut del directori LDAP amb la comanda slapcat.">
 
 En cas que el nom del directori no sigui el correcte, haurem de reconfigurar el servei amb la següent comanda:
 
@@ -85,7 +85,7 @@ sudo dpkg-reconfigure slapd
 
 Ara haurem de crear dues unitats organitzatives (*OUs*): **users** i **groups**, mitjançant un fitxer `.ldif`.  
 
-Per fer-ho, crearem l’arxiu `OU_users.ldif` amb la següent comanda:
+Para hacerlo, en mi caso he creado dos archivos, `OU_users.ldif` `OU_groups.ldif` con la siguiente comanda:
 
 ```bash
 sudo nano OU_users.ldif
@@ -105,7 +105,9 @@ objectClass: top
 objectClass: organizationalUnit
 ```
 
-<img src="img/10.png" alt="Creació del fitxer OU_users.ldif per definir les unitats organitzatives d'usuaris i grups.">
+<img src="img/15.png" alt="Creació del fitxer OU_users.ldif per definir les unitats organitzatives d'usuaris i grups.">
+<img src="img/16.png" alt="Creació del fitxer OU_users.ldif per definir les unitats organitzatives d'usuaris i grups.">
+
 
 Per crear finalment les OUs, executarem la comanda següent:
 
@@ -113,15 +115,13 @@ Per crear finalment les OUs, executarem la comanda següent:
 sudo ldapadd -D "cn=admin,dc=innovatech26,dc=test" -W -f OU_users.ldif
 ```
 
-<img src="img/11.png" alt="Execució de la comanda ldapadd per afegir les OUs al directori LDAP.">
-
-Per comprovar que les OUs s’han afegit correctament, utilitzarem la comanda següent:
+Para comprobar que se ha hecho correctamente pondremos la siguiente comanda:
 
 ```bash
 ldapsearch -xLLL -b "dc=innovatech26,dc=test"
 ```
 
-<img src="img/12.png" alt="Verificació de les OUs creades amb ldapsearch.">
+<img src="img/66.png" alt="Verificació de les OUs creades amb ldapsearch.">
 
 ---
 
@@ -141,15 +141,11 @@ Un cop instal·lat, ens hi connectarem des de la màquina física a través de l
 http://IP_DEL_SERVER/lam
 ```
 
-<img src="img/13.png" alt="Accés a la interfície web del LAM des del navegador mitjançant la IP del servidor." width="750">
-
-El primer pas és configurar el gestor per al nostre directori.  
-
-Ens dirigirem a la part superior dreta i farem clic a **LAM configuration**.
+<img src="img/19.png" alt="Accés a la interfície web del LAM des del navegador mitjançant la IP del servidor." width="750">
 
 Un cop dins, accedirem a **Edit server profiles** per començar la configuració del perfil del servidor.
 
-<img src="img/14.png" alt="Pantalla inicial de configuració del LAM, accedint a Edit server profiles." width="750">
+<img src="img/20.png" alt="Pantalla inicial de configuració del LAM, accedint a Edit server profiles." width="750">
 
 A continuació, apareixerà el panell d’inici de sessió, on la contrasenya per defecte és `lam`.
 
