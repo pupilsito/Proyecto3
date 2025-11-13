@@ -36,5 +36,5 @@ Para el desarrollo de este proyecto, se proporcionará documentación técnica y
 
 
 ## Fichero de solución y menu principal
-- Aqui se adjunta el fichero con la [solucion](SOLUCION.md)
-- [Volver al menu principal](/README.md)
+- Aqui se adjunta el fichero con la [solucion](solucio.md)
+- [Volver al menu principal](/README.MD)
