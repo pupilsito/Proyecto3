@@ -11,4 +11,4 @@ Recordeu que **progressar professionalment 🚀** dins d’una consultora implic
 ## 📎  Documents
 
 Podeu consultar tots els documents fent clic al document corresponent:
-- Al arxiu [vídeo](../tasca06/video.md) podeu trobar el link al video.
+- Al arxiu [vídeo](../T06/video.md) podeu trobar el link al video.
